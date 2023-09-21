@@ -50,7 +50,7 @@ section, article {
 .ingredients {
     color: #0D1822;
     background-color: #feb4897e;
-    font-family: 'gabriola';
+    font-family: 'gabriola', 'Copperplate', 'Papyrus', 'fantasy';
     font-size: 20px;
     list-style-position: inside;
     list-style-type: none;
@@ -65,7 +65,7 @@ section, article {
 .instructions {
     color: #0D1822;
     background-color: #feb4897e;
-    font-family: 'gabriola';
+    font-family: 'gabriola', 'Copperplate', 'Papyrus', 'fantasy';
     font-size: 20px;
     list-style-position: inside;
     margin-top: 1px;
@@ -92,7 +92,7 @@ a:hover {
 
 #title {
     text-align:center;
-    font-family: 'papyrus';
+    font-family: 'papyrus', 'Copperplate', 'Papyrus', 'fantasy';
     font-size: 40px;
     color: #0D1822;
     background-size: 50px;
@@ -101,7 +101,7 @@ a:hover {
 #recipename {
     color: #0D1822;
     background-color: #ce918ea8;
-    font-family: 'gabriola';
+    font-family: 'gabriola', 'Copperplate', 'Papyrus', 'fantasy';
     font-size: 30px;
     text-align: center;
     margin-top: 120px;
