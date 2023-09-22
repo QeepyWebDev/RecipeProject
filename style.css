@@ -8,20 +8,22 @@ html {
 
 nav {
     background-color: #FEB389;
-    padding: 10px;
+    padding: 0.5em;
     text-align: center;
-    width: 100%;
+    width: 90%;
     position: sticky;
     top: 0px;
     z-index: 999;
-    border: 3px;
+    border: 0.2em;
     border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav a {
     color: #0D1822;
     text-decoration: none;
-    padding: 10px;
+    padding: 0.58em;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
@@ -34,12 +36,12 @@ h3 {
     color: #0D1822;
     background-color: #ce918ea8;
     font-family: 'gabriola';
-    font-size: 25px;
+    font-size: 1.5em;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5px;
-    width: 300px;
-    border: 3px;
+    margin-bottom: 0.2em;
+    width: 10em;
+    border: 0.12em;
     border-style: solid;
 }
 
@@ -50,29 +52,31 @@ section, article {
 .ingredients {
     color: #0D1822;
     background-color: #feb4897e;
-    font-family: 'gabriola', 'Copperplate', 'Papyrus', 'fantasy';
-    font-size: 20px;
+    font-family: 'gabriola', 'Copperplate', 'fantasy';
+    font-size: 1.3em;
+    text-align: center;
     list-style-position: inside;
     list-style-type: none;
-    margin-top: 1px;
+    margin-top: 0.3em;
     margin-left: auto;
     margin-right: auto;
-    width: 500px;
-    border: 3px;
+    width: 27em;
+    border: 0.15em;
     border-style: solid;
 }
 
 .instructions {
     color: #0D1822;
     background-color: #feb4897e;
-    font-family: 'gabriola', 'Copperplate', 'Papyrus', 'fantasy';
-    font-size: 20px;
+    font-family: 'gabriola', 'Copperplate', 'fantasy';
+    font-size: 1.3em;
+    text-align: center;
     list-style-position: inside;
-    margin-top: 1px;
+    margin-top: 0.3em;
     margin-left: auto;
     margin-right: auto;
-    width: 700px;
-    border: 3px;
+    width: 30em;
+    border: 0.15em;
     border-style: solid;
 }
 
@@ -92,29 +96,33 @@ a:hover {
 
 #title {
     text-align:center;
-    font-family: 'papyrus', 'Copperplate', 'Papyrus', 'fantasy';
-    font-size: 40px;
+    font-family: 'papyrus', 'Copperplate', 'fantasy';
+    font-size: 2em;
     color: #0D1822;
-    background-size: 50px;
 }
 
 #recipename {
     color: #0D1822;
     background-color: #ce918ea8;
-    font-family: 'gabriola', 'Copperplate', 'Papyrus', 'fantasy';
-    font-size: 30px;
+    font-family: 'gabriola', 'Copperplate', 'fantasy';
+    font-size: 2em;
     text-align: center;
-    margin-top: 120px;
+    margin-top: 1em;
     margin-left: auto;
     margin-right: auto;
-    width: 600px;
-    border: 3px;
+    margin-bottom: 0.2em;
+    width: 10em;
+    border: 0.1em;
     border-style: solid;
 }
 
 #recipeimage {
-    max-width: 60%;
-    border: 15px;
+    max-width: 40%;
+    border: 0.5em;
     border-style: double;
     border-color:#0D1822;
+}
+
+@media and (max-width: 480px) {
+
 }
