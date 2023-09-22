@@ -16,11 +16,27 @@
 	</header>
 
 	<nav>
-		<a href="home ">Home</a>
+	<!--	<div id="menu">Menu</div> -->
+		<a href="home">Home</a>
 		<a href="recipes">Recipes</a>
 		<a href="about">About</a>
 		<a href="contact">Contact</a>
-	</nav>
+
+		<ul class="menu">
+			<li>
+			  <input type="radio" name="menuopt" id="drop1" />
+			  <label class="opener" for="drop1">Menu</label>
+			  <label class="closer" for="dropclose">Menu</label>
+			  <ul id="menu-items">
+				<li><a href="">Home</a></li>
+				<li><a href="">Recipes</a></li>
+				<li><a href="">About</a></li>
+				<li><a href="">Contact</a></li>
+			  </ul>
+			</li>
+			  <input type="radio" name="menuopt" id="dropclose" />
+		  </ul>
+	</nav> 
 
 	<section>
 		<h2 id="recipename">Sweet Rolls</h2>
@@ -67,10 +83,10 @@
 	</article>
 	</main>
 
-	<footer>
-		<a href="https://www.instructables.com/Foods-of-Skyrim-Sweet-Rolls/" target="_blank">Original source of these delicious Sweet Rolls</a>
+	<footer style="text-align: center;" >
+		<a href="https://www.instructables.com/Foods-of-Skyrim-Sweet-Rolls/" target="_blank" class="links">Original source of these delicious Sweet Rolls</a>
 		<br>
-		<a href="https://elderscrolls.fandom.com/wiki/Sweetroll" target="_blank">Learn more about this delicacy</a>
+		<a href="https://elderscrolls.fandom.com/wiki/Sweetroll" target="_blank" class="links">Learn more about this delicacy</a>
 	</footer>
 </body>
 </html>

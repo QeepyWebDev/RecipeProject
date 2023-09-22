@@ -9,6 +9,7 @@ html {
 nav {
     background-color: #FEB389;
     padding: 0.5em;
+    font-size: 1.5em;
     text-align: center;
     width: 90%;
     position: sticky;
@@ -22,6 +23,7 @@ nav {
 
 nav a {
     color: #0D1822;
+    font-size: 1em;
     text-decoration: none;
     padding: 0.58em;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
@@ -36,7 +38,7 @@ h3 {
     color: #0D1822;
     background-color: #ce918ea8;
     font-family: 'gabriola';
-    font-size: 1.5em;
+    font-size: 2em;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0.2em;
@@ -53,7 +55,7 @@ section, article {
     color: #0D1822;
     background-color: #feb4897e;
     font-family: 'gabriola', 'Copperplate', 'fantasy';
-    font-size: 1.3em;
+    font-size: 1.6em;
     text-align: center;
     list-style-position: inside;
     list-style-type: none;
@@ -69,29 +71,27 @@ section, article {
     color: #0D1822;
     background-color: #feb4897e;
     font-family: 'gabriola', 'Copperplate', 'fantasy';
-    font-size: 1.3em;
+    font-size: 1.6em;
     text-align: center;
     list-style-position: inside;
     margin-top: 0.3em;
     margin-left: auto;
     margin-right: auto;
-    width: 30em;
+    width: 35em;
     border: 0.15em;
     border-style: solid;
 }
 
-a {
+a.links, a.links:visited {
     color: rgb(0, 0, 0);
     text-decoration: none;
+    font-size: 1.5em;
 }
 
-a:visited {
-    color: rgb(110, 110, 112);
-}
-
-a:hover {
+a.links:hover {
     color: rgb(255, 255, 255);
-    text-decoration: underline;
+    text-decoration: none;
+    font-size: 1.7em;
 }
 
 #title {
@@ -123,6 +123,62 @@ a:hover {
     border-color:#0D1822;
 }
 
-@media and (max-width: 480px) {
+#menu {
+    display: flex;
+    text-align: left;
+}
+
+input.hidden-button {
+    width: 10em;
+    height: 2em;
+}
+
+.menu ul,
+.menu input,
+.menu .closer,
+.menu input:checked~.opener {
+  display: none;
+}
+
+.menu input:checked~ul,
+.menu input:checked~.closer {
+  display: block;
+}
+
+.opener, .closer {
+    font-size: 1em;
+}
+
+@media (min-width: 480px) {
+.menu {
+    display: none;
+}
+}
+
+@media (max-width: 480px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        background-color: #FEB389;
+        padding: 0.5em;
+        font-size: 1.5em;
+        text-align: center;
+        width: 80%;
+        position: sticky;
+        top: 0px;
+        z-index: 999;
+        border: 0.2em;
+        border-style: solid;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    nav a {
+        display: none;
+    }
+
+    #menu-items {
+        font-size: 0.5em;
+    }
 
 }
