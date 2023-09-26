@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Kaushan+Script&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+
 html {
     background: url(mountain2.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -123,7 +127,7 @@ a.links:hover {
     border-color:#0D1822;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 480px) {
     html {
         background: url(phonebackground.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
@@ -132,12 +136,19 @@ a.links:hover {
         background-size: cover;
     }
 
+    #title {
+        text-align:center;
+        font-family: 'Quintessential', cursive;
+        font-size: 1em;
+        color: #0D1822;
+    }
+
     nav {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
         position: relative;
-        background-color: #FEB389;
+        background-color: #b6b4b3;
         font-size: 1.5em;
         text-align: center;
         width: 80%;
@@ -145,6 +156,7 @@ a.links:hover {
         border-style: solid;
         margin-left: auto;
         margin-right: auto;
+        font-family: 'Bad Script', cursive;
     }
     
     nav a {
@@ -158,11 +170,11 @@ a.links:hover {
 
     #recipename {
         color: #0D1822;
-        background-color: #ce918ea8;
-        font-family: 'gabriola', 'Copperplate', 'fantasy';
-        font-size: 1.5em;
+        background-color: #b6b4b38f;
+        font-family: 'Kaushan Script', cursive;
+        font-size: 1em;
         text-align: center;
-        margin-top: 1em;
+        margin-top: 1.3em;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 0.2em;
@@ -173,8 +185,8 @@ a.links:hover {
 
     h3 {
         color: #0D1822;
-        background-color: #ce918ea8;
-        font-family: 'gabriola';
+        background-color: #b6b4b38f;
+        font-family: 'Kaushan Script', cursive;
         font-size: 1em;
         margin-left: auto;
         margin-right: auto;
@@ -186,8 +198,8 @@ a.links:hover {
 
     .ingredients {
         color: #0D1822;
-        background-color: #feb4897e;
-        font-family: 'gabriola', 'Copperplate', 'fantasy';
+        background-color: #ffffff8f;
+        font-family: 'Bad Script', cursive;
         font-size: 0.8em;
         text-align: center;
         list-style-position: inside;
@@ -202,8 +214,8 @@ a.links:hover {
 
     .instructions {
         color: #0D1822;
-        background-color: #feb4897e;
-        font-family: 'gabriola', 'Copperplate', 'fantasy';
+        background-color: #ffffff8f;
+        font-family: 'Bad Script', cursive;
         font-size: 0.8em;
         text-align: center;
         list-style-position: inside;
