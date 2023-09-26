@@ -124,6 +124,14 @@ a.links:hover {
 }
 
 @media (max-width: 360px) {
+    html {
+        background: url(phonebackground.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
     nav {
         display: flex;
         flex-direction: column;
@@ -147,9 +155,6 @@ a.links:hover {
         padding: 0.58em;
     }
 
-    nav a:hover {
-        display: none;
-    }
 
     #recipename {
         color: #0D1822;
@@ -190,7 +195,7 @@ a.links:hover {
         margin-top: 0.3em;
         margin-left: auto;
         margin-right: auto;
-        width: 27em;
+        width: 17em;
         border: 0.15em;
         border-style: solid;
     }
@@ -205,21 +210,23 @@ a.links:hover {
         margin-top: 0.3em;
         margin-left: auto;
         margin-right: auto;
-        width: 35em;
+        width: 17em;
         border: 0.15em;
         border-style: solid;
     }
 
     a.links, a.links:visited {
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         text-decoration: none;
         font-size: 1em;
+        text-align: center;
     }
     
     a.links:hover {
         color: rgb(255, 255, 255);
         text-decoration: none;
         font-size: 1em;
+        text-align: center;
     }
 
 }
