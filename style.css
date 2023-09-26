@@ -123,50 +123,15 @@ a.links:hover {
     border-color:#0D1822;
 }
 
-#menu {
-    display: flex;
-    text-align: left;
-}
-
-input.hidden-button {
-    width: 10em;
-    height: 2em;
-}
-
-.menu ul,
-.menu input,
-.menu .closer,
-.menu input:checked~.opener {
-  display: none;
-}
-
-.menu input:checked~ul,
-.menu input:checked~.closer {
-  display: block;
-}
-
-.opener, .closer {
-    font-size: 1em;
-}
-
-@media (min-width: 480px) {
-.menu {
-    display: none;
-}
-}
-
 @media (max-width: 480px) {
     nav {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        flex-wrap: nowrap;
         background-color: #FEB389;
-        padding: 0.5em;
         font-size: 1.5em;
         text-align: center;
         width: 80%;
-        position: sticky;
-        top: 0px;
-        z-index: 999;
         border: 0.2em;
         border-style: solid;
         margin-left: auto;
@@ -174,11 +139,15 @@ input.hidden-button {
     }
     
     nav a {
-        display: none;
+        color: #0D1822;
+        font-size: 1em;
+        text-align: center;
+        text-decoration: none;
+        padding: 0.58em;
     }
 
-    #menu-items {
-        font-size: 0.5em;
+    nav a:hover {
+        display: none;
     }
 
 }
