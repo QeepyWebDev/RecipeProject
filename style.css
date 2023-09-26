@@ -151,4 +151,33 @@ a.links:hover {
         display: none;
     }
 
+    h3 {
+        color: #0D1822;
+        background-color: #ce918ea8;
+        font-family: 'gabriola';
+        font-size: 1.5em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0.2em;
+        width: 10em;
+        border: 0.12em;
+        border-style: solid;
+    }
+
+    .ingredients {
+        color: #0D1822;
+        background-color: #feb4897e;
+        font-family: 'gabriola', 'Copperplate', 'fantasy';
+        font-size: 0.8em;
+        text-align: center;
+        list-style-position: inside;
+        list-style-type: none;
+        margin-top: 0.3em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 27em;
+        border: 0.15em;
+        border-style: solid;
+    }
+
 }
