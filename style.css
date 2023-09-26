@@ -123,7 +123,7 @@ a.links:hover {
     border-color:#0D1822;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 360px) {
     nav {
         display: flex;
         flex-direction: column;
