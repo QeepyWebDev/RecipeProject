@@ -139,13 +139,13 @@ a.links:hover {
     #title {
         text-align:center;
         font-family: 'Quintessential', cursive;
-        font-size: 1em;
+        font-size: 1.3em;
         color: #0D1822;
     }
 
     nav {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: nowrap;
         position: relative;
         background-color: #b6b4b3;
@@ -156,12 +156,12 @@ a.links:hover {
         border-style: solid;
         margin-left: auto;
         margin-right: auto;
-        font-family: 'Bad Script', cursive;
+        font-family: 'Quintessential', cursive;
     }
     
     nav a {
         color: #0D1822;
-        font-size: 1em;
+        font-size: 0.5em;
         text-align: center;
         text-decoration: none;
         padding: 0.58em;
@@ -239,6 +239,13 @@ a.links:hover {
         text-decoration: none;
         font-size: 1em;
         text-align: center;
+    }
+
+    #recipeimage {
+        max-width: 80%;
+        border: 0.5em;
+        border-style: double;
+        border-color:#0D1822;
     }
 
 }
